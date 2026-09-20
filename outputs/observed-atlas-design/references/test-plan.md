@@ -45,6 +45,7 @@ Score each case independently:
 9. **Hierarchy under complexity:** preserve meaningful subject intricacy, then identify the dominant reading, subordinate movement, and perceptually quiet field. Reject equal-strength competition among the subject, state fragments, geometry, texture, and signal color; use a thumbnail or blur test and mute support layers one at a time.
 10. **Revision continuity:** when the task refines an existing render, record which subject states, material contrasts, area-bearing geometry, long-range lines, and contextual roles were functional before the revision. A flatter, quieter, or more line-driven treatment must preserve or deliberately re-derive those roles rather than reducing the work to a uniform illustration.
 11. **Fragment integration, local depth, and active quiet:** inspect each major fragment's seam as well as its information. Reject a meaningful cross-section or remnant that reads as a pasted badge, any local member that becomes a sculptural exception to the planar field, and both accidental dead space and unrelated geometry added merely to fill it.
+12. **Collective topology and authored variation:** for multi-figure work, identify the first-read relation created by contact, orientation, shared negative space, route, or density before inspecting individuals. Reject a collection of independent vignettes and repeated polished figures whose faces, bodies, poses, folds, line finish, and completion reveal one synthetic template. Do not require a ring.
 
 Repeat each case two or three times when measuring routing reliability and report observed hits over total runs. A small sample cannot establish guaranteed future behavior.
 
@@ -70,6 +71,8 @@ Use these as relational checks, not a required style checklist:
 - **Integrated fragment seams:** a major insert or cross-section needs a credible axis, joint, cut plane, material transition, overlap, continued hatch, or consequence. State information alone does not make a floating medallion belong.
 - **Local depth consistency:** selective hatching can describe form, but one branch, trunk, limb, or mechanism cannot become a smoothly modeled cylinder or photographic sculpture inside an otherwise flat graphic system.
 - **Active quiet field:** sparse geometry in open space should continue the existing axis, arc, node, or interval family at lower salience. Reject both unused disconnection and a newly invented family or evenly sprinkled filler.
+- **Collective composition without a formula:** a group may encircle, branch, chain, band, weave, cluster, converge, disperse, or use another subject-derived topology. Judge whether the relation creates a coherent whole and shared space, not whether it repeats one successful layout.
+- **Anti-synthetic figure variation:** multiple figures retain credible anatomy while differing in drawing stage, contour certainty, hatch density, material transfer, crop, and completion; old paper does not excuse repeated faces, physiques, dramatic poses, folds, or equal polish.
 
 ## Negative routing cases
 
@@ -139,6 +142,10 @@ Introduce or identify each defect below. The skill should reject or correct it:
 - The composition is broadly flat, but one branch, trunk, limb, mechanism, or insert uses continuous gradients, wrapped highlights, strong occlusion, or cast-like shadow and becomes a local sculptural exception.
 - The main geometric route stops at the dense collage, leaving a large open field accidentally disconnected; the attempted correction adds an unrelated circle, grid, or line family instead of sparsely continuing the existing scaffold.
 - Geometry is distributed evenly across quiet space as filler rather than placed as a few lower-salience continuations that preserve pause and direction.
+- A multi-figure work contains many people but still reads as separate complete illustrations because no shared void, contact, alignment, route, density field, or other group topology organizes them.
+- Every person has similarly resolved facial features, musculature, dramatic gesture, garment folds, hatching, and edge sharpness, creating AI-like sameness beneath convincing paper texture.
+- A successful encircling composition is promoted into a mandatory group layout, so unrelated collective subjects are forced around a central void.
+- A large empty center is treated as meaningful merely because figures surround it, even though their orientation, contact, geometry, and density do not actually produce or activate that space.
 - Candidate diversity changes the era, cultural setting, medium, genre, or documentary distance instead of changing the interpretive proposition inside a shared visual-language envelope.
 - Invented contemporary or location-specific scene nouns overpower a selected sacred, philosophical, classical, or handmade direction even though the theme does not require that setting.
 - The distributed-world anchor is selected merely to make a second candidate different, without a relation that genuinely needs several sites, subjects, eras, or episodes.
@@ -297,3 +304,15 @@ Begin with a planar OAS time or growth poster whose subject includes a branch, s
 Accept only if the informative fragment is coupled through a credible cut, joint, structural axis, overlap, material transition, continued hatch, or visible consequence rather than floating like a badge. The revision must flatten any locally over-modeled branch or member through open contours, broken hatching, paper gaps, and reduced tonal continuity without erasing its identity or state information. If the open field needs more tension, add only a few low-contrast continuations of the existing axis, arc, node, or interval family; do not introduce a new family or sprinkle marks evenly.
 
 This defect has been observed in the second candidate of a time-and-tree-rings generation: the terminal ring section was temporally informative but visually isolated, the branch used stronger cylindrical modeling than the surrounding paper system, and the open field could accept a small continuation of the established geometry. Treat the correction as a rule and test-plan patch, not a passed visual regression, until a new revision is generated and opened.
+
+### Q. Collective-subject composition and synthetic-figure control
+
+In a fresh task, use:
+
+> 以新版 OAS 为基准，画一幅关于人的画。主体是人类这个群体，不是某个人，表现方式自行判断。
+
+Generate and open at least two candidates inside one shared visual-language envelope. Accept a ring around a shared void only when the figures' orientation, contact, density, negative space, and geometric route genuinely make the void part of the collective relation. A chain, branch, band, cluster, weave, convergence, dispersal, or another topology may pass equally well. Reject any rule or evaluation that rewards encircling merely because one observed candidate used it successfully.
+
+At full size, compare faces, physiques, gestures, garment folds, line pressure, hatch density, edge sharpness, material transfer, crop, and drawing completion. Reject a page of equally polished classical figures or independent dramatic vignettes even when the anatomy, paper, and color are individually plausible. The group must read first as a relationship, and its figures must vary in authored representation without losing anatomical credibility.
+
+This regression has been observed once. An encircling candidate with a central shared void and varied surrounding figures was preferred over a relay candidate whose uniformly finished faces, musculature, garments, and theatrical gestures produced stronger AI-like sameness. Treat the preference as evidence for topology and representational variation, not as a mandate for circular composition.
