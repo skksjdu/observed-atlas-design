@@ -42,6 +42,7 @@ Score each case independently:
 6. **Interpretive lift:** unless documentary realism was requested, the result cannot stop at an intact place, object, apparatus, aerial view, or scientific demonstration with an effect laid over it. Record the semantic anchor, subject-derived abstract carrier, and visible consequence found in the actual render. Reject stock metaphors and wrong-material readings even when the prompt claimed the intended relation.
 7. **Default form and planar space:** unless the user requested another style or a depth-led treatment, the render must show credible European classical drawing and material production rather than an archival filter, and every candidate must read first as one shallow graphic plane at thumbnail size rather than a three-dimensional scene.
 8. **Fragment information:** for every major fragment, record its unique structural, material, preservation, functional, temporal, or drawing-stage contribution. Reject interchangeable fragments and re-check the state change after conceptually removing surface texture and decorative geometry.
+9. **Hierarchy under complexity:** preserve meaningful subject intricacy, then identify the dominant reading, subordinate movement, and perceptually quiet field. Reject equal-strength competition among the subject, state fragments, geometry, texture, and signal color; use a thumbnail or blur test and mute support layers one at a time.
 
 Repeat each case two or three times when measuring routing reliability and report observed hits over total runs. A small sample cannot establish guaranteed future behavior.
 
@@ -53,7 +54,7 @@ Use these as relational checks, not a required style checklist:
 - **Semantic-role interpenetration:** Object, Analysis, and Information remain intelligible while being free to share spatial territory and media. Do not require overlap when separation better serves the subject.
 - **Subject-specific transformation:** different subjects produce materially different responses. Pair two biological subjects whose meaningful relations differ and reject automatic anatomy or skeleton exposure; pair two architectural subjects and reject automatic section, facade-sample, or callout treatment.
 - **Infographic drift:** flag the default combination of intact passive hero object, callout boxes, leader lines, literal signal route, and explanatory labels when most transformation occurs outside the subject. These devices are not failures when genuinely required.
-- **Hierarchy and density:** large relationships read at a distance; local information rewards closer inspection; density varies without prescribed regions, ratios, or axes.
+- **Hierarchy and density:** large relationships read at a distance; local information rewards closer inspection; density varies without prescribed regions, ratios, or axes. A complex subject may remain intricate, but support layers must yield in contrast, edge density, repetition, or spatial reach so the page retains one dominant reading and genuinely quiet fields.
 - **Contextual substitution:** when a reference gains richness from historical, cultural, architectural, technical, or material context, the new work supplies a theme-specific equivalent instead of copying it or deleting all contextual content.
 - **Geometric scaffold:** geometry may carry evidence or page organization. Its families repeat coherently to frame, crop, connect, pace, counterbalance, or expose the subject; not every line must pretend to be a measurement. Detail windows and numbered samples remain optional.
 - **Semantic anchor and metaphor:** abstract imagery may lead or support, but its origin, target, or effect remains inferable from a recognizable subject relation unless ambiguity is intentional. A supporting metaphor does not hide the subject through excessive area, contrast, density, or repetition.
@@ -120,6 +121,11 @@ Introduce or identify each defect below. The skill should reject or correct it:
 - Collage and geometric lines are present, but the composition still depends on three-dimensional depth, realistic light and shadow, or environmental perspective.
 - Avoiding copied European subject matter also removes the default classical formal language, leaving culturally anonymous contemporary editorial design.
 - Several fragments can be exchanged or deleted without losing any information about material, structure, preservation, function, time, or drawing stage.
+- The subject is meaningfully complex, but the attempted correction simplifies the subject while leaving competing geometry, texture, fragments, and accents intact.
+- Subject detail, state fragments, area geometry, line geometry, archival noise, and signal color all remain high-salience, creating several equal focal systems.
+- A pale or empty-looking region is counted as quiet space even though arcs, grids, grain, scattered fragments, or accents repeatedly cross it.
+- Area-bearing and line-based geometry are each individually coherent but follow unrelated axes or gestures and compete for dominance.
+- Small fragments or accents are distributed evenly across the page, so no contiguous region provides visual rest or a clear density drop.
 - Candidate diversity changes the era, cultural setting, medium, genre, or documentary distance instead of changing the interpretive proposition inside a shared visual-language envelope.
 - Invented contemporary or location-specific scene nouns overpower a selected sacred, philosophical, classical, or handmade direction even though the theme does not require that setting.
 - The distributed-world anchor is selected merely to make a second candidate different, without a relation that genuinely needs several sites, subjects, eras, or episodes.
@@ -244,3 +250,15 @@ Do not add a style reference or ask for European subject matter. Unless the run 
 For each major fragment, state what irreplaceable structural, material, preservation, functional, temporal, or drawing-stage information it contributes and what shared anatomy, load path, structural axis, source, or thematic relation keeps the set coherent. Reject copies differentiated only by color, texture, opacity, position, sharpness, crop, or damaged edge. A cut-away passes only when it exposes a new structure, material, historical layer, or consequence. Finally, conceptually remove surface texture and decorative geometry: the underlying state differences must still hold. Do not require a single continuous subject or a multi-state overlay; distributed or multi-subject solutions may pass when the theme relation genuinely requires them and the shared formal and planar gates still hold.
 
 This is a planned regression. Mark it unrun until new candidates are actually generated and opened; rule and package validation alone do not establish visual success.
+
+### N. Complex-subject hierarchy and visual-noise control
+
+In a fresh task, use:
+
+> 生成一张时间主题艺术海报，题材和表现形式不限。
+
+Do not instruct the run to choose a simple subject. A complex tree, architecture, animal, mechanism, or distributed relation may be valid. Accept only if the render preserves the subject information while establishing a dominant reading, clearly subordinate movement, and a contiguous quiet field at thumbnail scale. Subject detail, state fragments, geometric blocks, long lines or arcs, paper texture, and signal color must not all remain equally prominent.
+
+Apply two checks. First, blur or squint at the render: the main relation should remain legible without several unrelated gestures competing. Second, conceptually mute surface texture, minor fragments, secondary geometry, and signal color one at a time. If muting a support layer improves hierarchy without losing information about the subject's change, that layer should be removed or subordinated. Do not pass a result merely because the background is pale; quiet space crossed by repeated arcs, grids, grain, fragments, or accents is still active.
+
+A time-theme ginkgo artifact has been observed to pass the classical-form, planar-space, and state-information gates while still failing this hierarchy gate: the tree and growth states were valid, but tree rings, branches, scattered leaves, red bands, several arc systems, blue construction lines, gray paper strips, and global archival noise competed across most of the canvas. Treat it as evidence that compositional clutter is independent of subject complexity. This test remains unrun as a controlled fresh-task regression until new candidates are generated and opened under the revised rule.
