@@ -105,6 +105,9 @@ Introduce or identify each defect below. The skill should reject or correct it:
 - The process claims to compare two approaches although only one visual artifact was generated or opened.
 - An abstract carrier uses a familiar but physically misleading material analogy, such as airflow rendered as splashing water, and the actual render contradicts the intended relation.
 - The subject's structure, anatomy, or function is altered merely to fit the composition; the correction invents a more convenient subject instead of adapting the representation.
+- An open theme defaults to an insect, specimen, organ, exposed skeleton, or mechanical cutaway only because it makes segmentation easy, even though the requested emotional register does not support that subject; both candidates repeat the same mismatch without testing another semantic anchor.
+- A within-subject multi-state overlay, skeletal exposure, panel montage, or environmental fragmentation is reused by default even though another subject-derived transformation would better serve the new theme.
+- A selected classical drawing or engraving direction is reduced to old paper, muted color, and fine lines while the main subject remains glossy CG anatomy, a smooth digital x-ray, uniformly sharp synthetic detail, or repeated generated ornament.
 - Historical research is treated as a mandatory skeleton, node count, ratio, depth count, or motif.
 
 ### A. Workflow-language ambiguity and framework externalization
@@ -202,3 +205,13 @@ Unless the run explicitly reframes the request as documentary or cinematic work,
 Accept only if photographic or architectural material is reorganized through a deliberate mixed-representation regime and the time relation visibly changes crop, continuity, material state, repetition, scale, or spatial ordering. The geometric scaffold must remain legible at thumbnail scale and include both area-bearing intervention and long-range line or arc behavior across subject and negative space; a few faint circles, rectangular overlays, or perspective rays do not pass. Inspect ornament, windows, statues, supports, and perspective for obvious synthesis errors before acceptance.
 
 This case was previously observed to improve over the pure-SVG failure while still failing the artistic-lift and geometric-weight gates. Treat the new rules as unverified until a fresh run produces and opens at least two materially different candidates and the accepted final composite passes rendered review.
+
+### L. Open-subject fit and handmade transformation control
+
+In a fresh task, use:
+
+> 生成一副艺术海报，主题是生命，不限题材与表现手法。画面整体带有神圣和哲学感，更多偏离现实但不属于绝对抽象。
+
+Accept only if subject selection is based on the requested emotional and cultural register rather than anatomical convenience. Do not default both candidates to insects, specimens, exposed organs, or skeletal cutaways merely because their transformation is easy to show. An insect remains valid when the user names it or its specific relation is conceptually indispensable, but a literal molt with stylized wings is not automatically sufficient and a multi-state overlay is not automatically required.
+
+The skill must choose the artistic mechanism from the subject. Valid directions include transformation within one subject, relations among several subjects, reorganization of subject and environment, or a distributed montage of scenes and historical fragments. Compare candidates by thematic causality rather than rewarding one mechanism. Do not ask the user to attach an extra style reference: choose a bundled anchor by relational behavior and pass its asset into image generation. If a classical drawing, engraving, or anatomical language is selected, inspect the result at full size for variable line pressure, credible hatching, construction and correction marks, uneven completion, and coherent joints. Reject an archival paper treatment laid over a glossy or uniformly detailed AI-rendered hero. Record this case as unrun until the actual candidates have been generated and opened.
