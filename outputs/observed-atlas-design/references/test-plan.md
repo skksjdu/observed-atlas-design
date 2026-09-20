@@ -44,6 +44,7 @@ Score each case independently:
 8. **Fragment information:** for every major fragment, record its unique structural, material, preservation, functional, temporal, or drawing-stage contribution. Reject interchangeable fragments and re-check the state change after conceptually removing surface texture and decorative geometry.
 9. **Hierarchy under complexity:** preserve meaningful subject intricacy, then identify the dominant reading, subordinate movement, and perceptually quiet field. Reject equal-strength competition among the subject, state fragments, geometry, texture, and signal color; use a thumbnail or blur test and mute support layers one at a time.
 10. **Revision continuity:** when the task refines an existing render, record which subject states, material contrasts, area-bearing geometry, long-range lines, and contextual roles were functional before the revision. A flatter, quieter, or more line-driven treatment must preserve or deliberately re-derive those roles rather than reducing the work to a uniform illustration.
+11. **Fragment integration, local depth, and active quiet:** inspect each major fragment's seam as well as its information. Reject a meaningful cross-section or remnant that reads as a pasted badge, any local member that becomes a sculptural exception to the planar field, and both accidental dead space and unrelated geometry added merely to fill it.
 
 Repeat each case two or three times when measuring routing reliability and report observed hits over total runs. A small sample cannot establish guaranteed future behavior.
 
@@ -66,6 +67,9 @@ Use these as relational checks, not a required style checklist:
 - **Classical form versus subject context:** when no other style is requested, the work uses Renaissance-study, engraving, etching, architectural-drawing, early-atlas, or European paper-collage production logic without requiring European architecture, columns, ruins, religion, horses, layout, or ornament as subject matter.
 - **Planar spatial gate:** all candidates remain frontal, lateral, near-orthographic, or compressed and layer material on one shallow canvas unless a depth-led treatment was explicitly requested. Rich material layering is not evidence of spatial depth.
 - **State-bearing fragmentation:** one subject may be continuous or fragmented, and multi-subject or distributed work remains allowed when the theme requires it. In every case, major fragments must be tied by identity or relation and must contribute non-interchangeable information about change.
+- **Integrated fragment seams:** a major insert or cross-section needs a credible axis, joint, cut plane, material transition, overlap, continued hatch, or consequence. State information alone does not make a floating medallion belong.
+- **Local depth consistency:** selective hatching can describe form, but one branch, trunk, limb, or mechanism cannot become a smoothly modeled cylinder or photographic sculpture inside an otherwise flat graphic system.
+- **Active quiet field:** sparse geometry in open space should continue the existing axis, arc, node, or interval family at lower salience. Reject both unused disconnection and a newly invented family or evenly sprinkled filler.
 
 ## Negative routing cases
 
@@ -131,6 +135,10 @@ Introduce or identify each defect below. The skill should reject or correct it:
 - Simplification deletes the area-bearing geometry or long-range route that organized the accepted composition, leaving a lone line-drawn hero with token background decoration.
 - The revised work technically retains geometry only as one inert rectangle and one barely visible arc that neither enter the subject nor connect distant states.
 - Quiet space is interpreted as absolute emptiness, so sparse low-contrast route lines are removed even though they supplied scale, direction, or continuity without creating visual noise.
+- A cross-section or preserved state carries unique temporal information but is attached at an endpoint or page edge without a shared cut plane, joint, material transition, overlap, hatch continuation, or causal boundary, so it reads as a pasted badge.
+- The composition is broadly flat, but one branch, trunk, limb, mechanism, or insert uses continuous gradients, wrapped highlights, strong occlusion, or cast-like shadow and becomes a local sculptural exception.
+- The main geometric route stops at the dense collage, leaving a large open field accidentally disconnected; the attempted correction adds an unrelated circle, grid, or line family instead of sparsely continuing the existing scaffold.
+- Geometry is distributed evenly across quiet space as filler rather than placed as a few lower-salience continuations that preserve pause and direction.
 - Candidate diversity changes the era, cultural setting, medium, genre, or documentary distance instead of changing the interpretive proposition inside a shared visual-language envelope.
 - Invented contemporary or location-specific scene nouns overpower a selected sacred, philosophical, classical, or handmade direction even though the theme does not require that setting.
 - The distributed-world anchor is selected merely to make a second candidate different, without a relation that genuinely needs several sites, subjects, eras, or episodes.
@@ -279,3 +287,13 @@ Accept only if the revision changes the subject's edge, line pressure, underdraw
 Reject a uniform botanical, anatomical, architectural, or product study in which the former mixed-media and geometric system has disappeared; a lone line-drawn hero plus an isolated color rectangle and one faint arc does not pass. Also reject a revision that preserves every prior mark at equal contrast: the test requires hierarchy correction without role deletion.
 
 This regression has been observed once in a time-and-tree-rings revision. The result became more planar and credibly line-driven, but it collapsed the poster into a botanical study and stripped away the area/line geometry, mixed-material interpenetration, and state sequence that supplied OAS richness. Treat the new rule as statically verified until a fresh revision is generated and opened.
+
+### P. Fragment-seam, local-volume, and active-quiet control
+
+Begin with a planar OAS time or growth poster whose subject includes a branch, structural member, or other directional form and one informative cross-section or preserved-state fragment. Use the natural review request:
+
+> 整体方向可以，但局部剖面融合得不够好，主体仍略显立体，空白处可以适当增加一点几何元素，不要加太多。
+
+Accept only if the informative fragment is coupled through a credible cut, joint, structural axis, overlap, material transition, continued hatch, or visible consequence rather than floating like a badge. The revision must flatten any locally over-modeled branch or member through open contours, broken hatching, paper gaps, and reduced tonal continuity without erasing its identity or state information. If the open field needs more tension, add only a few low-contrast continuations of the existing axis, arc, node, or interval family; do not introduce a new family or sprinkle marks evenly.
+
+This defect has been observed in the second candidate of a time-and-tree-rings generation: the terminal ring section was temporally informative but visually isolated, the branch used stronger cylindrical modeling than the surrounding paper system, and the open field could accept a small continuation of the established geometry. Treat the correction as a rule and test-plan patch, not a passed visual regression, until a new revision is generated and opened.
