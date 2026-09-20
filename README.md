@@ -17,7 +17,7 @@ Observed Atlas System（OAS）是一套面向 Codex 的视觉设计 Skill，用�
 ## 主要特性
 
 - 自动判断适合 OAS 的开放式视觉主题，不要求用户使用内部方法术语。
-- 内置三张正向视觉锚点，并按关系而不是题材类别选择参考。
+- 内置四张正向视觉锚点，并按关系而不是题材类别选择参考。
 - 要求将锚点作为真实图片输入，而不是只在提示词中复述风格。
 - 开放式海报至少探索并查看两种不同的栅格或混合媒介候选。
 - 避免纯 SVG 代替主视觉生成、随机 HUD、虚构测量数据和无根据的鲜艳信号色。
@@ -33,6 +33,7 @@ outputs/
 │   ├── agents/
 │   │   └── openai.yaml
 │   ├── assets/
+│   │   ├── anchor-distributed-world-montage.webp
 │   │   ├── anchor-editorial-interpenetration.png
 │   │   ├── anchor-fragment-continuity.png
 │   │   └── anchor-multi-representation-motion.png
@@ -55,7 +56,13 @@ outputs/
 
 ### 使用 Git
 
-克隆仓库后，将 `outputs/observed-atlas-design` 目录复制到同一位置。安装后应保证 `SKILL.md` 位于：
+克隆公开仓库后，将 `outputs/observed-atlas-design` 目录复制到同一位置：
+
+```powershell
+git clone https://github.com/skksjdu/observed-atlas-design.git
+```
+
+安装后应保证 `SKILL.md` 位于：
 
 ```text
 %USERPROFILE%\.codex\skills\observed-atlas-design\SKILL.md
@@ -79,9 +86,9 @@ outputs/
 
 ## 当前状态
 
-当前版本处于稳定维护阶段。已通过源码、安装副本和 ZIP 的逐文件一致性检查，并完成过实际锚点输入、双候选生成和最终渲染审查。
+当前版本处于稳定维护阶段。源码、安装副本和 ZIP 的 9 个文件已通过逐文件一致性检查，源码与安装副本均通过官方 Skill 校验；建筑任务完成过实际锚点输入、双候选生成和最终渲染审查。
 
-仍需注意：图像生成存在随机性；单次成功不能证明所有主题都会稳定通过。后续修改应由可重复的真实失败触发，并优先修正最早失效的设计决策，避免不断堆叠规则。
+生命主题回归暴露并修正了“为了候选差异而切换时代、媒介和纪实类型”的问题。候选现在默认共享同一视觉语言边界，只在题材、关系、艺术化机制和构图上变化。该修正规则已静态验证，仍需下一次全新生成任务确认实际视觉行为。
 
 ## 许可
 
