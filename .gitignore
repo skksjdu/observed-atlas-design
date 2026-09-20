@@ -1,0 +1,16 @@
+# Local project memory and experimental work
+/STATE.md
+/History/
+/work/
+
+# Keep the current distributable Skill; ignore unrelated historical outputs
+/outputs/*
+!/outputs/observed-atlas-design/
+!/outputs/observed-atlas-design/**
+!/outputs/observed-atlas-design.zip
+
+# Common local artifacts
+Thumbs.db
+.DS_Store
+__pycache__/
+*.pyc

@@ -1,0 +1,6 @@
+interface:
+  display_name: "观测图谱式设计"
+  short_description: "从主题关系推导抽象意象、媒介、层级与原创编辑海报视觉"
+  default_prompt: "Use $observed-atlas-design to turn the subject relation into a recognizable anchor, a subject-derived carrier, theme-specific context, coherent geometry, controlled color, and an original editorial composition."
+policy:
+  allow_implicit_invocation: true
