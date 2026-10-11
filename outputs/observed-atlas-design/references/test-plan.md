@@ -2,6 +2,8 @@
 
 Evaluate three claims separately: the skill routes correctly, it changes the design process, and the final work succeeds visually. A valid folder or a model's statement of compliance proves none of these claims.
 
+The current entrypoint is proposition-first. Observation and abstraction remain available mechanisms, not mandatory endpoints for every artwork. Earlier observed cases retain their historical status; the 2026-10-11 revision and cases R–U require new generation evidence before being called visually validated.
+
 ## Four transfer cases
 
 Run each case in a fresh task. Use the Chinese request exactly as written and do not name `$observed-atlas-design`; the point is to test implicit routing in the user's normal language.
@@ -28,24 +30,25 @@ Expected design reasoning: the process path and chapter state organize the page.
 
 > 制作一张1080×1350“城市回声”声音艺术展海报。准确文案只有“城市回声”“声音艺术展”。
 
-Expected design reasoning: the title itself implies propagation, reflection, delay, recurrence, decay, or another temporal-spatial relation, so the skill should route without requiring the user to say `trace` or `sample`. A complete city scene with an added waveform is a failure: retain a recognizable urban or acoustic anchor, but let a subject-derived abstract carrier and its visible consequence form the main image. Final Chinese copy remains controlled and separate from image generation.
+Expected design reasoning: the title itself implies propagation, reflection, delay, recurrence, decay, or another temporal-spatial relation, so the skill should route without requiring the user to say `trace` or `sample`. A complete city scene with a merely decorative waveform is a failure. Let the selected relation organize recognizable urban or acoustic forms, with an abstract carrier when it adds meaning. Final Chinese copy remains controlled and separate from image generation.
 
 ## What to record
 
 Score each case independently:
 
 1. **Routing:** the skill was selected and read before the first production action.
-2. **Generative model:** the execution reasoning identifies a grounded subject, one dominant observation operation, one dominant structural response, and an evidence trail. This is not required poster copy; inspect the available process record separately from visible content.
-3. **Transfer:** the cases require re-deriving operation, response, spatial scaffold, density, evidence structure, and meaningful geometry. They are not one layout with different hero images; compare signal behavior and index meaning as well.
+2. **Generative model:** identify the artistic proposition, intended first feeling, subject forms and world relationships, what changes, and what unifies the work. When observation is useful, also identify its operation, structural response, and evidence. Do not reward an operational chain that replaces artistic conception. Inspect process reasoning separately from visible copy.
+3. **Transfer:** re-derive the proposition, selected forms and relationships, representation, scaffold, density, and meaningful geometry; re-derive operation and evidence when they are used. The cases are not one layout with different heroes. Compare signal behavior and index meaning where relevant.
 4. **Production order:** poster work selects representation strategy, first-read semantic anchor, metaphor weight, tonal intent, negative space, and the role or absence of typography before production. It generates and opens at least two raster or mixed-media visual candidates using an actual bundled reference path, accepts one visual layer, then implements any planned exact type and precise geometry separately. Announcing an editable SVG before framing the work, drawing the complete poster as SVG, or using XML validity as visual review is a failure. Frontend work uses real DOM structure and behavior.
-5. **Output:** the delivery review in `SKILL.md` passes, with no purposeless HUD, unrelated marks that obscure hierarchy, metaphor that hides its semantic anchor, unsupported tonal mood, detached or forced typography, workflow-overwhelming analysis, subject distortion, framework externalization, unsupported factual-looking metadata, or uncontrolled pseudo-text. A coherent complete subject is valid when its representation actively carries the operation.
-6. **Interpretive lift:** unless documentary realism was requested, the result cannot stop at an intact place, object, apparatus, aerial view, or scientific demonstration with an effect laid over it. Record the semantic anchor, subject-derived abstract carrier, and visible consequence found in the actual render. Reject stock metaphors and wrong-material readings even when the prompt claimed the intended relation.
-7. **Default form and planar space:** unless the user requested another style or a depth-led treatment, the render must show credible European classical drawing and material production rather than an archival filter, and every candidate must read first as one shallow graphic plane at thumbnail size rather than a three-dimensional scene.
+5. **Output:** the delivery review in `SKILL.md` passes, with no purposeless HUD, unrelated marks that obscure hierarchy, metaphor that hides its semantic anchor, unsupported tonal mood, detached or forced typography, workflow-overwhelming analysis, subject distortion, framework externalization, unsupported factual-looking metadata, or uncontrolled pseudo-text. A coherent complete subject is valid when its representation or compositional relationships actively carry the proposition.
+6. **Interpretive lift:** record the anchors, selected relationship or state organization, any useful carrier, and their perceptible effect in the actual render. Reject default depictions with decorative effects, stock metaphors, and wrong-material readings. A concrete relation or a single subject actively carrying meaning through gesture, scale, boundary, interval, or shared space can pass without a mandatory abstract carrier.
+7. **Default form and planar space:** unless overridden, evaluate the Greek-informed proportional and reflective sensibility with Central European drawing, print, and paper craft through actual organization and marks. Quiet sacredness need not use corresponding symbols. Every candidate reads as one shallow field unless depth-led treatment was requested; situated actors, places, and events may still occupy that field.
 8. **Fragment information:** for every major fragment, record its unique structural, material, preservation, functional, temporal, or drawing-stage contribution. Reject interchangeable fragments and re-check the state change after conceptually removing surface texture and decorative geometry.
-9. **Hierarchy under complexity:** preserve meaningful subject intricacy, then identify the dominant reading, subordinate movement, and perceptually quiet field. Reject equal-strength competition among the subject, state fragments, geometry, texture, and signal color; use a thumbnail or blur test and mute support layers one at a time.
+9. **Hierarchy under complexity:** preserve meaning-bearing complexity and distinguish it from redundant optical detail. Rank gesture, contact, essential structure, and surface resolution inside the subject as well as anchors, states, geometry, texture, and color across the page. Use thumbnail and grayscale checks for hierarchy; conceptual blur is a diagnostic, not a global-blur repair.
 10. **Revision continuity:** when the task refines an existing render, record which subject states, material contrasts, area-bearing geometry, long-range lines, and contextual roles were functional before the revision. A flatter, quieter, or more line-driven treatment must preserve or deliberately re-derive those roles rather than reducing the work to a uniform illustration.
-11. **Fragment integration, local depth, and active quiet:** inspect each major fragment's seam as well as its information. Reject a meaningful cross-section or remnant that reads as a pasted badge, any local member that becomes a sculptural exception to the planar field, and both accidental dead space and unrelated geometry added merely to fill it.
+11. **Fragment integration, local depth, and active quiet:** inspect both information and the appropriate connection. Structural inserts need credible seams; different actors or forms may belong through a propositional route, contact, alignment, or shared interval without a physical join. Reject floating badges and local sculptural exceptions produced by either smooth modeling or dense hatching, as well as disconnected space or unrelated filler geometry.
 12. **Collective topology and authored variation:** for multi-figure work, identify the first-read relation created by contact, orientation, shared negative space, route, or density before inspecting individuals. Reject a collection of independent vignettes and repeated polished figures whose faces, bodies, poses, folds, line finish, and completion reveal one synthetic template. Do not require a ring.
+13. **First emotion and subject depiction:** judge the actual impression before reading the concept statement. A correct grip, recognizable age, classical hatching, or technically clear subject still fails a tender or contemplative brief when scale, flexion, skin detail, hard joints, or repeated bodily patterns create an unintended clinical, threatening, or grotesque reading. Preserve explicit coarse, aging, hardship, or uncanny treatments when the brief calls for them.
 
 Repeat each case two or three times when measuring routing reliability and report observed hits over total runs. A small sample cannot establish guaranteed future behavior.
 
@@ -53,7 +56,7 @@ Repeat each case two or three times when measuring routing reliability and repor
 
 Use these as relational checks, not a required style checklist:
 
-- **Representation integration:** the operation materially changes how the subject is represented instead of living mainly in external annotation.
+- **Representation integration:** the selected relationship lives in the main arrangement, states, or representation rather than mainly in annotation. Material transformation is one possible mechanism.
 - **Semantic-role interpenetration:** Object, Analysis, and Information remain intelligible while being free to share spatial territory and media. Do not require overlap when separation better serves the subject.
 - **Subject-specific transformation:** different subjects produce materially different responses. Pair two biological subjects whose meaningful relations differ and reject automatic anatomy or skeleton exposure; pair two architectural subjects and reject automatic section, facade-sample, or callout treatment.
 - **Infographic drift:** flag the default combination of intact passive hero object, callout boxes, leader lines, literal signal route, and explanatory labels when most transformation occurs outside the subject. These devices are not failures when genuinely required.
@@ -65,11 +68,11 @@ Use these as relational checks, not a required style checklist:
 - **Optional integrated typography:** typography is not required. When used, its footprint and layer relationship are planned with the visual before exact controlled typesetting; when omitted, the composition still feels intentional.
 - **Positive-reference abstraction:** use successful historical work only as evidence for transformation, overlap, scale change, material interplay, density variation, signal-color force, and long-range composition. Never reuse its motifs as subject-category recipes.
 - **Reference activation:** without asking the user to re-upload an image, poster production selects a bundled anchor by relational need and passes it as an actual generation input. User-supplied references take precedence.
-- **Classical form versus subject context:** when no other style is requested, the work uses Renaissance-study, engraving, etching, architectural-drawing, early-atlas, or European paper-collage production logic without requiring European architecture, columns, ruins, religion, horses, layout, or ornament as subject matter.
+- **Classical sensibility versus motif:** when no other direction is requested, proportion, poise, reflective attention, drawing and print craft, and time-bearing material convey the default Greek and Central European sensibility. Columns, gods, crosses, halos, ruins, horses, and borrowed layouts are optional subject choices rather than tokens that prove fidelity.
 - **Planar spatial gate:** all candidates remain frontal, lateral, near-orthographic, or compressed and layer material on one shallow canvas unless a depth-led treatment was explicitly requested. Rich material layering is not evidence of spatial depth.
 - **State-bearing fragmentation:** one subject may be continuous or fragmented, and multi-subject or distributed work remains allowed when the theme requires it. In every case, major fragments must be tied by identity or relation and must contribute non-interchangeable information about change.
-- **Integrated fragment seams:** a major insert or cross-section needs a credible axis, joint, cut plane, material transition, overlap, continued hatch, or consequence. State information alone does not make a floating medallion belong.
-- **Local depth consistency:** selective hatching can describe form, but one branch, trunk, limb, or mechanism cannot become a smoothly modeled cylinder or photographic sculpture inside an otherwise flat graphic system.
+- **Integrated forms:** a structural insert needs a credible seam; heterogeneous forms can share a thematic relation or meaningful interval. Neither an informative floating badge nor an artificial anatomy joining different actors passes.
+- **Local depth consistency:** selective hatching can describe form, but smooth modeling or dense continuous tonal hatching must not turn one branch, trunk, limb, or mechanism into a sculptural exception.
 - **Active quiet field:** sparse geometry in open space should continue the existing axis, arc, node, or interval family at lower salience. Reject both unused disconnection and a newly invented family or evenly sprinkled filler.
 - **Collective composition without a formula:** a group may encircle, branch, chain, band, weave, cluster, converge, disperse, or use another subject-derived topology. Judge whether the relation creates a coherent whole and shared space, not whether it repeats one successful layout.
 - **Anti-synthetic figure variation:** multiple figures retain credible anatomy while differing in drawing stage, contour certainty, hatch density, material transfer, crop, and completion; old paper does not excuse repeated faces, physiques, dramatic poses, folds, or equal polish.
@@ -114,7 +117,7 @@ Introduce or identify each defect below. The skill should reject or correct it:
 - Avoiding SVG produces a polished generic scene whose operation exists only as atmosphere or a detached fragment.
 - A non-documentary art poster defaults to a centered photoreal or CG hero whose apparent artistry comes mainly from moonlight, clouds, rain, wet reflections, glowing windows, or volumetric beams.
 - Geometry is technically present but consists mostly of faint circles, rectangles, or hairlines laid over a complete scene; it has too little area, scale variation, overlap, or long-range force to organize the poster.
-- The output accurately depicts the requested scene or process but remains documentary: the intact subject and illustrated phenomenon do all the work, with no subject-derived abstract carrier or visible consequence.
+- The output depicts a requested scene or process but supplies only documentary description or surface styling; the intended artistic proposition is absent from its arrangement, states, relationships, or representation. Do not equate absence of an abstract carrier with automatic failure.
 - The output uses torn paper, archival grain, cyanotype color, translucent sheets, or signal-color outlines while its underlying composition remains the subject's default documentary representation.
 - The process claims to compare two approaches although only one visual artifact was generated or opened.
 - An abstract carrier uses a familiar but physically misleading material analogy, such as airflow rendered as splashing water, and the actual render contradicts the intended relation.
@@ -139,7 +142,7 @@ Introduce or identify each defect below. The skill should reject or correct it:
 - The revised work technically retains geometry only as one inert rectangle and one barely visible arc that neither enter the subject nor connect distant states.
 - Quiet space is interpreted as absolute emptiness, so sparse low-contrast route lines are removed even though they supplied scale, direction, or continuity without creating visual noise.
 - A cross-section or preserved state carries unique temporal information but is attached at an endpoint or page edge without a shared cut plane, joint, material transition, overlap, hatch continuation, or causal boundary, so it reads as a pasted badge.
-- The composition is broadly flat, but one branch, trunk, limb, mechanism, or insert uses continuous gradients, wrapped highlights, strong occlusion, or cast-like shadow and becomes a local sculptural exception.
+- The composition is broadly flat, but one branch, trunk, limb, mechanism, or insert uses continuous gradients, dense tonal hatching, wrapped highlights, strong occlusion, or cast-like shadow and becomes a local sculptural exception.
 - The main geometric route stops at the dense collage, leaving a large open field accidentally disconnected; the attempted correction adds an unrelated circle, grid, or line family instead of sparsely continuing the existing scaffold.
 - Geometry is distributed evenly across quiet space as filler rather than placed as a few lower-salience continuations that preserve pause and direction.
 - A multi-figure work contains many people but still reads as separate complete illustrations because no shared void, contact, alignment, route, density field, or other group topology organizes them.
@@ -150,6 +153,13 @@ Introduce or identify each defect below. The skill should reject or correct it:
 - Invented contemporary or location-specific scene nouns overpower a selected sacred, philosophical, classical, or handmade direction even though the theme does not require that setting.
 - The distributed-world anchor is selected merely to make a second candidate different, without a relation that genuinely needs several sites, subjects, eras, or episodes.
 - Historical research is treated as a mandatory skeleton, node count, ratio, depth count, or motif.
+- A requested subject is treated as the whole content, so every proposition becomes one large hero with a material effect and geometry.
+- Candidate names change but both actual images retain the same front-to-print-to-fade mechanism, relationship, and spatial organization.
+- Different forms of one proposition are rejected because they do not share one anatomy, or are forced into an artificial physical seam.
+- A growth anchor imposes the same seed, hand, tree, diagonal ascent, lifecycle, circles, or fixed stage count on unrelated themes.
+- Greek, Central European, philosophical, or sacred direction is reduced to mandatory columns, crosses, halos, gold, grimness, or coarse bodily detail.
+- Anatomical credibility is confused with exhaustive skin resolution, and a late tenderness adjective cannot counter concrete instructions for weathered skin, dense engraving, deep joints, and enlarged impressions.
+- A detail correction erases age, turns every hand youthful, globally blurs contact, or removes the accepted material and geometric roles.
 
 ### A. Workflow-language ambiguity and framework externalization
 
@@ -316,3 +326,55 @@ Generate and open at least two candidates inside one shared visual-language enve
 At full size, compare faces, physiques, gestures, garment folds, line pressure, hatch density, edge sharpness, material transfer, crop, and drawing completion. Reject a page of equally polished classical figures or independent dramatic vignettes even when the anatomy, paper, and color are individually plausible. The group must read first as a relationship, and its figures must vary in authored representation without losing anatomical credibility.
 
 This regression has been observed once. An encircling candidate with a central shared void and varied surrounding figures was preferred over a relay candidate whose uniformly finished faces, musculature, garments, and theatrical gestures produced stronger AI-like sameness. Treat the preference as evidence for topology and representational variation, not as a mandate for circular composition.
+
+### R. Subject focus and genuinely different propositions
+
+In a fresh task, use:
+
+> 用 OAS 生成一张主体是鲸鱼的艺术视觉作品，其他内容自行判断。
+
+Generate and open at least two real candidates inside one visual-language envelope. Compare the forms or actors, what happens between them or with the picture's space, what changes, and the actual compositional relationships. A single whale can pass when gesture, scale, boundary, interval, or another relation carries the proposition; multiple objects and a literal story are not compulsory.
+
+Reject two differently named ideas that both become a large etched front, blue printed middle, and fading rear with a rotated diagonal or different blocks. The whale remains the focus without being required to occupy the whole conceptual space. World content, absence, other actors, or state relationships can be explored when they strengthen meaning.
+
+Observed before revision: “body becoming an echo” and “interval between breath and depth” both used substantially the same whale-to-print-to-fade construction; a later edit intensified pulse marks on the whale rather than expanding the relationship. This is failure evidence, not a post-revision result. Forward validation is unrun.
+
+### S. Dynamic forms and propositional unity
+
+In a fresh task, use:
+
+> 用 OAS 做一张生命主题视觉作品，主体与表现方式自行判断，表达变化与统一。
+
+Assess whether the chosen proposition benefits from one form, several states of one identity, or heterogeneous forms. For every major form, identify its distinct contribution and the relationship that makes it belong. Do not require several stages in every candidate. When several are chosen, compare their differences after removing decorative texture and nonessential geometry.
+
+Use the growth anchor as positive raw evidence: the hand, seed, shoots, roots, canopy, and tree-ring material can express receiving, potential, manifestation, support, expansion, and memory while a route and material relationships unify them. Do not claim they depict one botanical specimen. Do not require the same objects, layout, colors, or lifecycle in new work. Progression, branching, recurrence, opposition, coexistence, and rupture remain alternatives.
+
+Include a paired control with a non-growth proposition, such as “归属” or “等待”, to detect compulsory lifecycle staging. Accept when identity continuity or propositional continuity is visually meaningful, and reject filters on interchangeable copies or arbitrary symbols justified only in prose. Post-revision generation is unrun.
+
+### T. Human detail, first emotion, and preserved age
+
+In a fresh task, use:
+
+> 用 OAS 表现两代人之间温柔而庄重的触碰，保留年长者的年龄特征，不加文字。
+
+The intended relation and emotional impression lead at thumbnail size. At full size, inspect viewpoint, hand scale, finger flexion, dark joints, crease density, nails, skin patterns, local volume, and edge finish. Anatomical credibility and visible age remain, but every pore and wrinkle need not be resolved. Dense hatching must not create unintended clinical, threatening, or grotesque body emphasis. A pressure print or other carrier must not repeat the same high-frequency skin stimulation at larger scale.
+
+Reject a remedy that simply blurs the whole image, smooths away age, makes every figure youthful, or strips mixed material and geometry. Re-draw and redistribute attention so gesture, contact, and essential structure lead over redundant surface texture.
+
+Paired control:
+
+> 用 OAS 做一幅表现风霜岁月的老年手部版画，保留粗粝质感和年龄痕迹。
+
+This control permits purposeful coarseness. The rule must distinguish the intended register rather than universally beautifying, smoothing, or banning close-ups and older bodies.
+
+Observed before revision: a life-theme candidate combined a weathered elderly hand, dense engraved old skin, large hand scale, and enlarged pressure-print ridges. The actual hand's skin, creases, joints, and tactile modeling dominated the tender contact; the run viewed thumbnail, grayscale, and a detail crop but still accepted it. This demonstrates a depiction and acceptance failure, not merely a missing preview. Post-revision generation is unrun.
+
+### U. Classical philosophy and sacredness without a motif checklist
+
+In a fresh task, use:
+
+> 用 OAS 制作一张“有限与无限”的艺术视觉作品，带有古希腊与中欧的美感与哲学，略有神圣感，题材自行判断。
+
+Evaluate proportion, relation between parts and whole, intervals, rhythm, gesture, scale, silence, authored marks, and material time. Sacredness should be perceptible as a register without mandatory columns, gods, crosses, halos, altars, gold, or a religious scene. Do not average all traditions into one generic style or impose grimness and coarse bodily detail.
+
+Use a paired explicit style or mood request to verify that the default yields to the user's direction. An appropriate motif remains valid when it contributes to the actual proposition. This is a planned regression; no post-revision image is claimed.
