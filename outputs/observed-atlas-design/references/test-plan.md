@@ -4,6 +4,8 @@ Evaluate three claims separately: the skill routes correctly, it changes the des
 
 The current entrypoint is proposition-first. Observation and abstraction remain available mechanisms, not mandatory endpoints for every artwork. Earlier observed cases retain their historical status; the 2026-10-11 revision and cases R–U require new generation evidence before being called visually validated.
 
+As of 2026-10-12, artwork is text-free by default, including when the user supplies only a theme name or delegates the decision about text. Cases below that explicitly require titles, captions, or copy are override controls; they do not authorize automatic text in ordinary artwork. Case V checks the default. Functional frontend text remains necessary where the interface requires it.
+
 ## Four transfer cases
 
 Run each case in a fresh task. Use the Chinese request exactly as written and do not name `$observed-atlas-design`; the point is to test implicit routing in the user's normal language.
@@ -39,7 +41,7 @@ Score each case independently:
 1. **Routing:** the skill was selected and read before the first production action.
 2. **Generative model:** identify the artistic proposition, intended first feeling, subject forms and world relationships, what changes, and what unifies the work. When observation is useful, also identify its operation, structural response, and evidence. Do not reward an operational chain that replaces artistic conception. Inspect process reasoning separately from visible copy.
 3. **Transfer:** re-derive the proposition, selected forms and relationships, representation, scaffold, density, and meaningful geometry; re-derive operation and evidence when they are used. The cases are not one layout with different heroes. Compare signal behavior and index meaning where relevant.
-4. **Production order:** poster work selects representation strategy, first-read semantic anchor, metaphor weight, tonal intent, negative space, and the role or absence of typography before production. It generates and opens at least two raster or mixed-media visual candidates using an actual bundled reference path, accepts one visual layer, then implements any planned exact type and precise geometry separately. Announcing an editable SVG before framing the work, drawing the complete poster as SVG, or using XML validity as visual review is a failure. Frontend work uses real DOM structure and behavior.
+4. **Production order:** poster work selects representation strategy, first-read semantic anchor, metaphor weight, tonal intent, and negative space for a complete text-free field. It generates and opens at least two raster or mixed-media candidates with an actual reference input. Plan and implement exact typography only for explicitly requested copy, after accepting the primary visual. Do not automatically reserve header/footer percentages, select fonts, or promise a typography SVG. Precise geometry is added only when needed. A primitive-only SVG or XML validity replacing visual production and review is a failure. Frontend work uses real DOM structure and behavior.
 5. **Output:** the delivery review in `SKILL.md` passes, with no purposeless HUD, unrelated marks that obscure hierarchy, metaphor that hides its semantic anchor, unsupported tonal mood, detached or forced typography, workflow-overwhelming analysis, subject distortion, framework externalization, unsupported factual-looking metadata, or uncontrolled pseudo-text. A coherent complete subject is valid when its representation or compositional relationships actively carry the proposition.
 6. **Interpretive lift:** record the anchors, selected relationship or state organization, any useful carrier, and their perceptible effect in the actual render. Reject default depictions with decorative effects, stock metaphors, and wrong-material readings. A concrete relation or a single subject actively carrying meaning through gesture, scale, boundary, interval, or shared space can pass without a mandatory abstract carrier.
 7. **Default form and planar space:** unless overridden, evaluate the Greek-informed proportional and reflective sensibility with Central European drawing, print, and paper craft through actual organization and marks. Quiet sacredness need not use corresponding symbols. Every candidate reads as one shallow field unless depth-led treatment was requested; situated actors, places, and events may still occupy that field.
@@ -65,7 +67,7 @@ Use these as relational checks, not a required style checklist:
 - **Geometric scaffold:** geometry may carry evidence or page organization. Its area-bearing and line-based families repeat coherently on one route to frame, crop, connect, pace, counterbalance, or expose the subject; not every line must pretend to be a measurement. One inert block plus one faint arc does not retain a scaffold. Detail windows and numbered samples remain optional.
 - **Semantic anchor and metaphor:** abstract imagery may lead or support, but its origin, target, or effect remains inferable from a recognizable subject relation unless ambiguity is intentional. A supporting metaphor does not hide the subject through excessive area, contrast, density, or repetition.
 - **Tonal intent and negative space:** the overall light/dark field supports the brief's emotional register instead of inheriting a palette from the anchor. Color is allowed, but a muted or low-to-moderate-chroma dominant field should prevent unrelated bright colors from flattening hierarchy unless vivid color is requested. Quiet space remains useful when it supplies pause, scale, direction, or anticipation; a few sparse low-contrast lines may cross it when they continue the main scaffold, but repeated marks must not turn it into another active texture.
-- **Optional integrated typography:** typography is not required. When used, its footprint and layer relationship are planned with the visual before exact controlled typesetting; when omitted, the composition still feels intentional.
+- **Text-free default and explicit override:** default artwork contains no title, subtitle, slogan, footer, label, numeral, index, signature, watermark, or pseudo-writing, and no reserved typography band. Only explicitly requested copy receives planned integrated editable typesetting. A theme name or delegated choice about text does not override the default.
 - **Positive-reference abstraction:** use successful historical work only as evidence for transformation, overlap, scale change, material interplay, density variation, signal-color force, and long-range composition. Never reuse its motifs as subject-category recipes.
 - **Reference activation:** without asking the user to re-upload an image, poster production selects a bundled anchor by relational need and passes it as an actual generation input. User-supplied references take precedence.
 - **Classical sensibility versus motif:** when no other direction is requested, proportion, poise, reflective attention, drawing and print craft, and time-bearing material convey the default Greek and Central European sensibility. Columns, gods, crosses, halos, ruins, horses, and borrowed layouts are optional subject choices rather than tokens that prove fidelity.
@@ -217,7 +219,7 @@ Save only the prompt, output or running page, and a concise result. Do not requi
 
 ### G. Bundled-anchor and medium-selection control
 
-In fresh tasks, do not attach reference images and use two unrelated poster prompts whose meaningful relations differ. Accept only if the skill reads `positive-anchors.md`, chooses anchors by relation rather than subject category, and passes each selected asset as a real image-generation reference while producing the primary raster or mixed-media visual layer. It must avoid copying the anchor's subject, exact blue shapes, exact coordinates, anatomy, architecture, structural distortions, or tonal mood. Verify that useful reference roles are translated rather than stripped away: culturally situated context becomes a new theme-specific equivalent, and geometric hierarchy is re-derived through new axes, arcs, blocks, crops, or lines. Verify that any abstract metaphor retains a readable relationship to its semantic anchor, quiet space is not filled by reflex, and typography is integrated when useful rather than mandatory. An open-ended poster must not collapse to pure SVG; reserve a vector-only result for an explicit user request and judge it as a distinct direction. The candidates must not both become generic concept scenes.
+In fresh tasks, do not attach reference images and use two unrelated poster prompts whose meaningful relations differ. Accept only if the skill reads `positive-anchors.md`, chooses anchors by relation rather than subject category, and passes each selected asset as a real image-generation reference while producing the primary raster or mixed-media visual layer. It must avoid copying the anchor's subject, exact blue shapes, exact coordinates, anatomy, architecture, structural distortions, or tonal mood. Verify that useful reference roles are translated rather than stripped away: culturally situated context becomes a new theme-specific equivalent, and geometric hierarchy is re-derived through new axes, arcs, blocks, crops, or lines. Verify that any abstract metaphor retains a readable relationship to its semantic anchor, quiet space is not filled by reflex, and default artwork stays text-free without a typography footprint. Only explicitly requested copy is integrated separately. An open-ended poster must not collapse to pure SVG; reserve a vector-only result for an explicit user request and judge it as a distinct direction. The candidates must not both become generic concept scenes.
 
 ### H. Default-depiction and surface-abstraction control
 
@@ -378,3 +380,23 @@ In a fresh task, use:
 Evaluate proportion, relation between parts and whole, intervals, rhythm, gesture, scale, silence, authored marks, and material time. Sacredness should be perceptible as a register without mandatory columns, gods, crosses, halos, altars, gold, or a religious scene. Do not average all traditions into one generic style or impose grimness and coarse bodily detail.
 
 Use a paired explicit style or mood request to verify that the default yields to the user's direction. An appropriate motif remains valid when it contributes to the actual proposition. This is a planned regression; no post-revision image is claimed.
+
+### V. Text-free default and requested-copy override
+
+In fresh tasks, use each short request without extra text instructions:
+
+> 用 OAS 设计一张，主体是知识。
+
+> 用 OAS 做一张生命主题视觉作品，文字是否加入自行判断。
+
+Accept only if candidates and final artwork contain no automatic titles, translations, subtitles, slogans, footers, labels, numbers, indices, signatures, watermarks, or pseudo-writing. Compose the whole field as artwork; do not reserve a top title band, bottom footer strip, empty text box, or fixed typography percentage. Do not spend a default text-free task selecting fonts or producing a typography-only SVG.
+
+Inspect books, maps, scanned material, and study sheets for accidental or inherited text. Non-lettered imagery and geometry remain permitted. A theme name is the subject, not an instruction to print it. Delegating the text decision retains the user's default rather than triggering a new clarification question.
+
+Paired override control:
+
+> 用 OAS 做一张知识主题海报，请加入准确标题“知识”，不加其他文字。
+
+The override includes only the requested title, implemented accurately and editably after accepting the text-free primary visual. It does not add an English translation, slogan, subtitle, or footer. Functional frontend text is covered separately by Case 3 and must not be removed by the artwork policy.
+
+This is a planned policy regression. Rule, YAML, link, and package checks do not demonstrate a generated image is free of text; mark forward generation unrun until actual outputs are opened.

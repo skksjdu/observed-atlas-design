@@ -2,6 +2,8 @@
 
 These images are production references, not templates. Select by the new proposition's relationships, not subject category. User-supplied references take precedence. Read the current `SKILL.md` for shared composition, depiction, and review rules; this reference explains what each anchor can contribute.
 
+Artwork is text-free by default. Do not transfer reference lettering, labels, indices, or a layout whose empty bands exist for copy. Plan the whole image without typography space unless the user explicitly requests visible text.
+
 | Anchor | Relational use | Transfer selectively | Adapt or avoid copying |
 | --- | --- | --- | --- |
 | [`anchor-fragment-continuity.png`](../assets/anchor-fragment-continuity.png) | source-linked fragmentation, structure extending across distance, interrupted continuity | shared identity, long-range force, mixed material, unequal density, image–geometry interpenetration, a situated object's relation to its scaffold | carousel, horse, ornaments, exact layout, and blue stepped motif; dominant object scale or dense engraving that gives the new subject an unintended harshness |
@@ -35,6 +37,6 @@ For a new subject, determine which changes matter and which relationship holds t
 4. Generate and open at least two real candidates for an open-ended expressive poster. Compare actual actors, forms, interactions, state organization, and spatial relationships. A renamed concept, rotated hero, different texture, or the same front-to-print-to-fade construction is not a second proposition.
 5. Review meaning and first emotion alongside hierarchy, state information, appropriate integration, geometry, quiet fields, classical craft, and planar space. Judge the skin, faces, joints, and other sensitive areas at full size. A correct contact or readable metaphor can still fail when it creates an unintended clinical, threatening, or grotesque impression.
 6. Correct the earliest failed concept, depiction, or composition. Re-draw and redistribute detail rather than adding labels, texture, or global blur. During a style revision preserve meaningful states, material counterpoints, context, and area/line organization; redundant surface detail may be omitted.
-7. Plan typography while composing, accept the text-free visual layer, then add accurate editable copy and precise overlays separately when they add value. An intentional text-free composition is valid.
+7. Deliver text-free artwork by default, with no automatic copy, indices, pseudo-writing, or typography footprint. Add precise non-text overlays only when needed. If the user explicitly requests visible text, plan only that copy while composing, accept the text-free primary visual, then implement the requested accurate editable type separately. An invitation to decide whether to use text retains the text-free default.
 
 Judge fidelity by the proposition, change and unity, relationships, hierarchy, craft, and emotional effect of the actual image rather than repeated motifs or a statement that the reference was followed.

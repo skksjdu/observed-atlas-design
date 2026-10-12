@@ -1,6 +1,6 @@
 interface:
   display_name: "观测图谱式设计"
-  short_description: "以命题与多种形态组织原创视觉，兼顾古典气质、变化统一与情绪层级"
-  default_prompt: "Use $observed-atlas-design to develop an artistic proposition through subject forms, states, and world relationships, then compose change and unity with classical craft, intentional detail, coherent geometry, and the intended emotional register."
+  short_description: "默认无字的原创视觉设计，以命题与多种形态组织古典气质、变化统一与情绪层级"
+  default_prompt: "Use $observed-atlas-design to create text-free artwork by default, developing a proposition through subject forms, states, and world relationships with classical craft, change and unity, coherent geometry, and the intended emotion; include visible text only when explicitly requested."
 policy:
   allow_implicit_invocation: true

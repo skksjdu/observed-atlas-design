@@ -15,6 +15,16 @@ Apply OAS when the user names it, requests an operation such as tracing or sampl
 
 Do not apply it to a plain style request, a fully specified documentary treatment, a routine UI or copy edit, a pure scene illustration, or work explicitly assigned to another visual language.
 
+## Text-free artwork by default
+
+Posters, campaign graphics, and key visuals are text-free unless the user explicitly asks for visible text. A subject or theme name is not a request to print a title. An invitation to decide whether text is needed retains the text-free default. Do not ask the user to reconfirm it.
+
+Do not automatically add titles, subtitles, translations, slogans, footers, labels, numerals, compositional indices, signatures, watermarks, or pseudo-writing. Compose the whole visual field without reserved title bands, footer strips, empty text boxes, or fixed typography percentages. Quiet space serves the image's relationships and rhythm.
+
+Do not inherit lettering from a reference. Books, maps, archival fragments, and study sheets can use drawings or non-lettered material; inspect the actual render for accidental text-like marks. Do not create font-selection work or a typography-only SVG for a text-free delivery.
+
+An explicit text request overrides this artwork default. Plan only the requested copy in relation to the image, then implement it accurately and editably after accepting the text-free primary visual. Functional DOM text and controls in frontend work remain governed by that task's content and accessibility needs.
+
 ## Proposition before technique
 
 Start with an internal interpretive sentence: what situation, association, tension, change, or way of seeing should the work make perceptible through this subject? Determine the intended first feeling as well as the first recognizable content. Poetic ambiguity may remain; explanatory copy must not supply all the meaning.
@@ -82,7 +92,7 @@ In multi-figure work, vary contour confidence, line pressure, hatching, transfer
 
 ## Medium, space, and composition
 
-The primary visual layer of OAS posters and key visuals must be generated or assembled from raster, photographic, scanned, collage, or mixed-media material, then opened and accepted. Primitive SVG paths, flat vector blocks, and text must not replace that production. SVG, HTML, CSS, or another deterministic layer may implement precise typography, masks, geometry, and final compositing afterward. A user-requested pure-vector direction is a different permitted outcome.
+The primary visual layer of OAS posters and key visuals must be generated or assembled from raster, photographic, scanned, collage, or mixed-media material, then opened and accepted. Primitive SVG paths, flat vector blocks, and text must not replace that production. SVG, HTML, CSS, or another deterministic layer may implement masks, precise geometry, and final compositing afterward; implement typography only for an explicit text request. A user-requested pure-vector direction is a different permitted outcome.
 
 Choose a representation regime from the proposition: drawing, print, engraving, scan, collage, flattened photography, material transfer, or a deliberate hybrid. Line drawing is one layer, not a reason to discard meaningful state differences, material counterpoints, or compositional structure. Photographic source material must not automatically become a seamless cinematic scene.
 
@@ -98,14 +108,14 @@ Resolve large relationships before notation:
 - When geometry is central, couple area-bearing fields, masks, crops, or blocks with sparse axes, arcs, or long routes. They share an organizing relationship and do visible work at more than one scale. Thin overlays on a complete scene, one inert block with a token arc, and unrelated dominant gestures do not retain a scaffold. Detail windows and indices are optional.
 - Supporting metaphors remain readable through the anchor. Regulate their area, contrast, density, repetition, and proximity before removing a valid metaphor that overpowers the subject.
 - During revision, distinguish new mark-making and lower salience from deletion of functional roles. Preserve or deliberately re-derive meaningful states, mixed material, context, area geometry, and long-range organization. Redundant surface detail may be omitted; do not collapse the accepted work into a uniform isolated illustration.
-- Plan the role or absence of typography from the start. Implement exact copy separately and editably after accepting the visual layer. Do not generate final lettering or pseudo-text. Visible copy belongs to the subject rather than internal workflow or self-justification; factual-looking readings, IDs, coordinates, or dates need provenance or unmistakable illustrative labeling. Ordinary compositional indices may remain.
+- Keep default artwork free of text and typography footprints. If the user explicitly requests copy, plan it from the start and implement it separately and editably after accepting the visual layer. Do not ask image generation to produce final lettering or pseudo-text. Requested visible copy belongs to the subject rather than internal workflow or self-justification; factual-looking readings, IDs, coordinates, or dates need provenance or unmistakable illustrative labeling. Compositional indices appear only when explicitly requested.
 
 ## Poster and key-visual workflow
 
-1. **Frame.** Establish the proposition, intended first feeling, subject fit, possible states and world relations, what changes and what unifies it, default depiction to avoid, representation, tonal range, scaffold, and typography's role. For several candidates, define a shared visual-language envelope: emotional register, temporal and cultural distance, medium and craft, tonal behavior, and documentary-to-abstract distance.
+1. **Frame.** Establish the proposition, intended first feeling, subject fit, possible states and world relations, what changes and what unifies it, default depiction to avoid, representation, tonal range, and scaffold. Compose a complete text-free field; plan copy only when explicitly requested. For several candidates, define a shared visual-language envelope: emotional register, temporal and cultural distance, medium and craft, tonal behavior, and documentary-to-abstract distance.
 2. **Explore.** For an open-ended poster, generate and open at least two actual text-free raster or mixed-media candidates with materially different propositions or relationship structures inside that envelope. Compare actors or forms, what happens between them, what changes, and how space carries the relation. Renaming concepts while retaining the same hero-to-print-to-fade mechanism, rotating a subject, or changing lighting, texture, or color is insufficient. Do not lock an open subject to the first convenient specimen; consider other anchors when they improve thematic and emotional fit. Described alternatives, code-drawn SVG plans, and unopened files are not candidates.
 3. **Build.** Resolve anchors, selected states, their unity, world content, carrier when useful, visible consequences, geometric system, and detail hierarchy. Put the relation in the main visual rather than mainly in labels or analytical overlays. State each reference's role and prevent subject, motif, layout, and depiction-density copying.
-4. **Typeset.** When text adds value, compose accurate editable copy and precise overlays in a deterministic layer using the already planned relationship to the visual.
+4. **Finish.** Apply precise compositing or geometric overlays only when needed. Default delivery remains text-free and does not require a text layer or SVG. For an explicit text request, add only the requested accurate editable copy using its planned relationship to the accepted visual.
 5. **Review.** Compare the actual candidates against the same envelope and proposition. Open the final render at target size, thumbnail scale, and in grayscale. Check first emotion as well as first recognition; relational clarity and correct anatomy do not excuse an unintended clinical, threatening, or grotesque impression. Inspect sensitive bodily details at full size. Conceptually remove titles, texture, nonessential geometry, and atmosphere: meaning, state differences, and unity should remain. Verify shallow overall space and consistent local depth, fragment information and appropriate coupling, collective topology and authored variation, quiet fields, geometric mass and routes, and readable metaphor weight. For revisions, account for the previous functional roles. Reject failed candidates rather than selecting the least-bad one or hiding the failure with labels, paper texture, or blur.
 
 Do not create audit artifacts merely to prove stages happened. Deliver the final output, editable source when relevant, and concise review conclusions.
@@ -123,7 +133,7 @@ Accept only when the actual render supports the relevant claims:
 - Hierarchy operates inside the subject and across the page. Gesture, relation, and necessary structure lead over irrelevant surface resolution; age and meaningful complexity survive selective depiction. Quiet intervals, palette, and metaphors support the intended reading.
 - Geometry has a stable evidential or compositional job. When central, area and line families share a route or hierarchy and affect mass, crop, overlap, counterweight, or long-range connection.
 - Group topology and representation variation precede separate complete vignettes or uniformly polished figures. Style revisions preserve functional richness while changing salience and mark-making.
-- The chosen production medium, actual reference inputs, controlled optional typography, and provenance of factual-looking content meet their boundaries. The final composite was rendered and viewed; hashes, valid XML, and stated intentions do not prove visual success.
+- Default artwork is text-free, uses the whole field, and has no automatic title, subtitle, footer, indices, pseudo-writing, or typography reservation. Explicitly requested copy is accurate, integrated, and editable. The production medium, actual reference inputs, and provenance of requested factual-looking content meet their boundaries. The final composite was rendered and viewed; hashes, valid XML, and stated intentions do not prove visual success.
 
 When a judgment fails, correct the earliest failed proposition, relationship, depiction, or composition decision. Additional texture, arbitrary surrealism, generic geometry, annotation, and global blur are not substitutes.
 
