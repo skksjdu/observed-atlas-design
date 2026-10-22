@@ -2,7 +2,7 @@
 
 Observed Atlas System（OAS）是一套面向 Codex 的视觉设计 Skill，用于创作具有主体依据、编辑层级、材料感和结构性几何的艺术海报、主视觉及相关视觉界面。
 
-已发布的稳定版本标签：**v1.0.0**。`main` 分支及随仓库提供的 ZIP 已包含截至 **2026-10-12** 的规则修订，作品默认无字。这些修订尚未发布新的版本标签，新增规则仍需新的生成回归。
+已发布的稳定版本标签：**v1.0.0**。当前规则修订日期为 **2026-10-12**，参考图库更新日期为 **2026-10-23**；`main` 分支及随仓库提供的 ZIP 包含这些更新，作品默认无字。这些更新尚未发布新的版本标签，新增规则仍需新的生成回归。
 
 从命题出发，探索主体能够怎样显现、变化，以及怎样与其他内容和世界建立关系，再选择构图与表现手段：
 
@@ -33,7 +33,7 @@ Observed Atlas System（OAS）是一套面向 Codex 的视觉设计 Skill，用�
 ## 主要特性
 
 - 自动判断适合 OAS 的开放式视觉主题，不要求用户使用内部方法术语。
-- 内置五张正向视觉锚点，并按关系而不是题材类别选择参考。
+- 内置七张正向视觉锚点，并按关系而不是题材类别选择参考。
 - 要求将锚点作为真实图片输入，而不是只在提示词中复述风格。
 - 开放式海报至少探索并查看两种关系结构或命题实质不同的栅格或混合媒介候选；改名、旋转、换颜色或重复“主体转印再淡出”不构成充分差异。
 - 避免纯 SVG 代替主视觉生成、随机 HUD、虚构测量数据和无根据的鲜艳信号色。
@@ -52,11 +52,13 @@ outputs/
 │   ├── agents/
 │   │   └── openai.yaml
 │   ├── assets/
-│   │   ├── anchor-distributed-world-montage.webp
-│   │   ├── anchor-editorial-interpenetration.png
+│   │   ├── anchor-architectural-dissolution.png
+│   │   ├── anchor-architectural-state-sequence.png
+│   │   ├── anchor-collective-shared-space.png
 │   │   ├── anchor-fragment-continuity.png
 │   │   ├── anchor-growth-cycle-geometry.png
-│   │   └── anchor-multi-representation-motion.png
+│   │   ├── anchor-multi-representation-motion.png
+│   │   └── anchor-time-ring-continuity.png
 │   └── references/
 │       ├── design-language-spec.md
 │       ├── positive-anchors.md
@@ -110,7 +112,9 @@ git clone https://github.com/skksjdu/observed-atlas-design.git
 
 2026-10-12 补充无字默认：宽泛主题名和“文字自行判断”都不触发自动排版；整张画面按无字作品组织。测试计划新增 V，区分普通无字请求与明确要求准确文字的例外。
 
-源码、安装副本和 ZIP 保持 10 文件结构。五张视觉锚点与历史母规范保持原字节；当前主规则优先于历史母规范。官方 Skill 校验、相对链接和逐文件一致性属于包验证，不代表新的构思、隐式路由或画面质量已经通过。
+2026-10-23 按更新后的参考图目录同步图库：保留三张原有锚点，新增群体共享空间、年轮与生长、建筑消解和建筑状态序列四张参考图，移除两张已撤下的旧图。新增图片统一采用描述性文件名和与实际 PNG 格式一致的扩展名，未重新编码或修改图片内容。
+
+源码、安装副本和 ZIP 均包含 12 个文件，其中七张为互不重复的视觉锚点。参考图选用说明与目录结构同步更新；历史母规范保持原字节，当前主规则优先于历史母规范。官方 Skill 校验、相对链接和逐文件一致性属于包验证，不代表新的构思、隐式路由或画面质量已经通过。
 
 上述规则、测试计划和安装包已同步到 `main` 分支。新增规则尚未经过修订后的全新任务生成与视觉验收；代码同步与包验证不代表这些视觉回归已经通过，也不代表已发布新的版本标签。
 
